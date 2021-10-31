@@ -1,0 +1,13 @@
+Feature: Login Test
+
+
+
+Scenario: Go to amazon website and test login page
+
+
+Given: Go to Amazon website
+And: Click login button
+And: Enter username
+And: Enter password
+When: Click submit button
+Then: Verify success message
